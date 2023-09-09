@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: ATTACHED-JAR: com.codename1.demos.chat:socialchat-Pubnub-CodeNameOne-3.7.4:common:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cn1libs/Pubnub-CodeNameOne-3.7.4/jars/main.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

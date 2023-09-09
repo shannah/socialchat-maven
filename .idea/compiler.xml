@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="socialchat-javase" />
+        <module name="socialchat-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="socialchat" target="8" />
+      <module name="socialchat-BouncyCastleCN1Lib" target="1.8" />
+      <module name="socialchat-cn1libs" target="1.8" />
+      <module name="socialchat-common" target="1.8" />
+      <module name="socialchat-javase" target="1.8" />
+      <module name="socialchat-json" target="1.8" />
+      <module name="socialchat-maven" target="1.8" />
+      <module name="socialchat-Pubnub-CodeNameOne-3.7.4" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

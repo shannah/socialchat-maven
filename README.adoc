@@ -1,0 +1,35 @@
+= Codename One Social Chat (Maven Version)
+
+This is a port of the Codename One Social Chat demo to Maven.
+
+Currently this project has been configured for Android builds, specifically to test the integration with the latest Firebase and Facebook SDKs.  If you want to build for iOS, you may need to tweak the build hints a little.
+
+## Setup
+
+. https://developers.facebook.com/apps/creation/[Create a Facebook App profile].
+. https://firebase.google.com/docs/android/setup[Set up a Firebase project]
+. Download the `google-services.json` file from your firebase project, and copy it to your `android/src/main/resources` directory.
+. Obtain your Facebook App ID and client token from the Facebook App profile, and have them ready to add to your build hints, as described in the next steps.
+. Copy the `common/codenameone_settings.properties.example` file to `common/codenameone_settings.properties`.
+. Add the `facebook.appId` and `facebook.clientToken` build hints in your `common/codenameone_settings.properties` file, or using Codename One preferences.
+. Build and run the project.
+
+
+IMPORTANT: If you add build hints directly to your `codenameone_settings.properties` file, you will need to prefix the keys with `codename1.arg.`.  For example, `facebook.appId` becomes `codename1.arg.facebook.appId`.
+
+## Building for Android
+
+You can build from the command-line using the `build.sh` (`build.bat` on Windows) script.  E.g.
+
+----
+./build.sh android
+----
+
+Or use the Android Build action in NetBeans or IntelliJ.
+
+## Usage
+
+This demo is a trimmed down version of Social Chat to demonstrate Facebook Login only.  The chat functionality likely doesn't work, and the UI is not as polished as the original Social Chat demo.
+
+When you use the app, you should be able to login with Facebook, and then, see your profile image after logging in.  You can then logout, and login again.
+

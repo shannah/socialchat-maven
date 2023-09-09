@@ -1,0 +1,7 @@
+target
+native-projects
+/tools
+google-services.json
+codenameone_settings.properties
+.DS_Store
+/private
